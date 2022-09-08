@@ -3,4 +3,4 @@ db.resumoProdutos.insertOne({
   totalProdutos: db.produtos.countDocuments({}),
 });
 
-db.resumoProdutos.find();
+db.resumoProdutos.find({}, { _id: 0 });
