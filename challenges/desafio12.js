@@ -1,4 +1,4 @@
-db.produtos.updateMany({ name: { $ne: "McChicken" } }, {
+db.produtos.updateMany({ nome: { $ne: "McChicken" } }, {
   $addToSet: {
     ingredientes: "ketchup",
   },
