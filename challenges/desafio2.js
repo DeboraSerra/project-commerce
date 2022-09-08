@@ -4,4 +4,4 @@ db.produtos.find({}, {
   vendidos: 1,
 }).sort({
   vendidos: 1,
-})
+});
